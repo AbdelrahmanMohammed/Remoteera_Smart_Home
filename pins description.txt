@@ -1,0 +1,15 @@
+- digitalWrite did NOT work with (4) :
+ GPIOs 6, 7, 8, 11, and ADC (A0), and 9, 10 for flash
+
+- boot fails if pulled LOW (3) :
+ GPIOs 0, 1, 2
+
+- boot fails if pulled HIGH (1) :
+ GPIO 15
+
+- pin is HIGH at BOOT (6) :
+ GPIOs 1, 2, 3, 9, 10, 16
+
+- pin is LOW at BOOT (4) :
+ the rest except GPIOs 4, 5
+ GPIOs 12, 13, 14, 15
